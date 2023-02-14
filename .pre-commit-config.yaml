@@ -7,8 +7,8 @@ repos:
         stages: [commit]
         language: system
         entry: python -m nbconvert --ClearOutputPreprocessor.enabled=True --inplace
-      - id: pylint
-        name: pylint
-        entry: pylint
+      - id: pytest
+        name: pytest
+        entry: pytest
         language: system
         types: [python]
