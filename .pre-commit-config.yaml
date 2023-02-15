@@ -2,7 +2,7 @@ repos:
   - repo: local
     hooks:
       - id: pytest
-        exclude: ^test_with_pytest.py
+        exclude: ^tests/
         name: pytest
         entry: pytest
         language: system
